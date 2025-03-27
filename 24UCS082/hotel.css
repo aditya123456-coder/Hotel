@@ -1,0 +1,284 @@
+body
+{
+    padding: 0px;
+    margin: 0;
+}
+.logo
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+    margin-right: 10px;
+}
+@media(max-width: 480px) 
+{
+       .logo
+       {
+         font-size: 10px;
+         margin-right: 10px;
+       } 
+}
+.div
+{
+    margin-top: 5px;
+}
+.top
+{
+    margin-top: 5px;
+}
+@media (max-width: 480px) 
+{
+   .top
+   {
+     margin-top: -5px;
+   }    
+}
+.toph1
+{
+    color: rgb(170, 255, 131);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+@media (max-width: 480px) 
+{
+    .toph1
+{
+    color: rgb(170, 255, 131);
+    font-family: sans-serif;
+    margin: 0;
+    margin-top: 5px;
+}   
+}
+.topa
+{
+    text-decoration: none;
+    color: white;
+    float: right;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.topdiv
+{
+    background-color: rgba(0, 0, 0, 0.437);
+    padding: 1px;
+    margin-top: 10px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    transition:  background-color 0.5s;
+}
+.topdiv:hover
+{
+    background-color: black;
+}
+
+.topbutton
+{
+    text-decoration: none;
+    background-color: rgb(75, 210, 30);
+    color: black;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+@media (max-width: 480px) 
+{
+    .topbutton
+{
+    text-decoration: none;
+    background-color: rgb(75, 210, 30);
+    color: black;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 5px;
+    margin-top: 7px;
+}    
+}
+.phone
+{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 480px) 
+{
+    .phone
+    {
+        float: right;
+        margin-right: 10px;
+        text-decoration: none;
+        font-size: 6px;
+        color: black;
+        margin-top: 12px;
+    }    
+}
+.boardh1
+{
+    color: rgb(183, 255, 124);
+    font-family: 'Akronim';
+    margin-left: 100px;
+    font-size: 100px;
+    margin-top: 150px;
+}
+.boarddiv
+{
+  background-image:url("images/hotelback.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;  
+}
+.boardh3
+{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+.boardbutton
+{
+    text-decoration: none;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    margin-left: 320px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    backdrop-filter: blur(10px);
+    width: 95%;
+    margin: 30px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.scroll-container div {    
+    flex-shrink: 0;
+    margin: 5px;
+    overflow: hidden;
+}
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+.scroll-container div h1
+{
+    text-align: center;
+}
+.img
+{ 
+    transition: transform 0.5s;
+}
+.img:hover
+{
+    transform: scale(1.2);
+}
+.scrolldiv
+{
+    background-image: url(images/scrollback.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: px;
+    padding: 10px;
+}
+.scrollh5
+{
+    background-color: chartreuse;
+    border: none;
+    border-radius: 10px;
+}
+.producth1
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+}
+.producth4
+{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+.producth4bn
+{
+    text-decoration: none;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.abouth1
+{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.aboutdiv
+{
+    position: relative;
+    margin-top: -415px;
+    border-radius: 10px;
+    float: right;
+    background-color: rgb(255, 200, 0);
+    width: 34%;
+    box-shadow: 2px 2px 8px black;
+}
+.searchh1
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+#search-box {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.searchbn
+{
+    background-color: chartreuse;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.searchdiv
+{
+    width: 30%;
+    box-shadow: 2px 2px 8px black;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+.an
+{
+    animation-name: vis;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes vis 
+{
+   0% {opacity: 0;}
+   100% {opacity: 1;}    
+}
+.footerh1
+{
+    color: rgb(255, 128, 0);
+    font-family: sans-serif;
+}
+.blogdiv
+{
+    width: 30%;
+    box-shadow: 2px 2px 8px black;
+    margin: 20px;
+    flex-shrink: 0;
+}
+.blog
+{
+    display: flex;
+}
